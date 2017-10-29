@@ -7,28 +7,28 @@ subject: Digest
     <row class="collapse">
       <columns small="12">
         <center>
-          <img src="/assets/img/logo.png" width="124" height="24">
+          <img src="https://s3-eu-west-1.amazonaws.com/conflux-mail/Logo.png" width="124" height="24">
         </center>
       </columns>
     </row>
   </container>
 </wrapper>
-<spacer size="24"></spacer>
+<spacer size="32"></spacer>
 <wrapper>
   <row class="collapse">
     <column small="12">
-      <h4 class="text-center"> Here's what happened last week</h4>
+      <h4 class="text-center">Here's what happened last week</h4>
     </column>
   </row>
 </wrapper>
-<spacer size="16"></spacer>
+<spacer size="24"></spacer>
 <wrapper>
-  <container class="transparent radius" v-align="middle">
+  <container class="transparent radius stats" v-align="middle">
     <row>
       <columns small="3"  valign="middle">
         <container class="stats rounded bordered">
           <spacer size="24"></spacer>
-          <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>34</p>
+          <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>12</p>
           <h6 class="text-center" style="margin-bottom: 0;">Votes</h6>
           <spacer size="28"></spacer>
         </container>
@@ -44,7 +44,7 @@ subject: Digest
       <columns small="3"  valign="middle">
         <container class="stats rounded bordered">
           <spacer size="24"></spacer>
-          <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>34</p>
+          <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>56</p>
           <h6 class="text-center" style="margin-bottom: 0;">Feedback</h6>
           <spacer size="28"></spacer>
         </container>
@@ -52,9 +52,9 @@ subject: Digest
       <columns small="3"  valign="middle">
         <container class="stats rounded bordered">
           <spacer size="24"></spacer>
-          <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>34</p>
+          <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>9</p>
           <h6 class="text-center" style="margin-bottom: 0;">Supporters</h6>
-          <spacer size="28"></spacer> 
+          <spacer size="28"></spacer>
         </container>
       </columns>
     </row>
@@ -62,52 +62,46 @@ subject: Digest
 </wrapper>
 
 <spacer size="20"></spacer>
-<container class="transparent">
-
-</container>
-<!-- <container class="transparent">
-  <row class="collapse">
-    <column small="12">
-      <h4 class="text-center">Here's what a few people had to<br />  say about you last week</h4>
-    </column>
-  </row>
-</container> -->
 
 <container class="transparent">
   <row class="collapse">
+    <table class="hr"><tr><th>&nbsp;</th></tr></table>
+    <spacer size="32"></spacer>
     <column small="12">
-      <hr>
-      <h4 class="text-center">Here’s a couple of trending ideas</h4>
+      <h4 class="text-center">Here’s a couple of trending ideas<br /> from last week</h4>
     </column>
+    <spacer size="16"></spacer>
   </row>
 </container>
 
 <container class="bordered radius idea-card">
 
-  <spacer size="16"></spacer>
+  <spacer size="24"></spacer>
 
   <row>
-    <columns small="2">
+
+    <columns class="votes" small="1">
       <spacer size="8"></spacer>
       <center>
-        <img src="/assets/img/vote.png" width="8" height="8" />
+        <img src="https://s3-eu-west-1.amazonaws.com/conflux-mail/vote.png" width="8" height="8" />
       </center>
       <spacer size="4"></spacer>
       <p class="votes-number text-center">
         54
       </p>
     </columns>
-    <columns small="9">
+
+    <columns small="10">
       <container>
         <row>
           <columns small="9" style="padding-bottom: 0;">
-            <h6 style="margin-bottom: 0;">Feedback idea goes here</h6>
-            <p class="warning-color">
+            <h6 class="idea-title" style="margin-bottom: 0;">Feedback idea goes here</h6>
+            <p class="status warning-color">
               In progress
             </p>
           </columns>
-          <columns small="3">
-            <button href="#" class="small radius">View idea</button>
+          <columns small="3" style="padding-bottom: 0;">
+            <button href="#" class="button small radius expanded">View idea</button>
           </columns>
         </row>
       </container>
@@ -123,4 +117,104 @@ subject: Digest
     </columns>
   </row>
 
+</container>
+
+
+<spacer size="24"></spacer>
+
+<container class="bordered radius idea-card">
+
+  <spacer size="24"></spacer>
+
+  <row>
+
+    <columns class="votes" small="1">
+      <spacer size="8"></spacer>
+      <center>
+        <img src="https://s3-eu-west-1.amazonaws.com/conflux-mail/vote.png" width="8" height="8" />
+      </center>
+      <spacer size="4"></spacer>
+      <p class="votes-number text-center">
+        54
+      </p>
+    </columns>
+
+    <columns small="10">
+      <container>
+        <row>
+          <columns small="9" style="padding-bottom: 0;">
+            <h6 class="idea-title" style="margin-bottom: 0;">Feedback idea goes here</h6>
+            <p class="status warning-color">
+              In progress
+            </p>
+          </columns>
+          <columns small="3" style="padding-bottom: 0;">
+            <button href="#" class="button small radius expanded">View idea</button>
+          </columns>
+        </row>
+      </container>
+      <container>
+        <row>
+          <columns small="12" style="padding-bottom: 0;">
+            <p class="body-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quisquam, libero vitae maxime repellat odit quae, voluptate molestias explicabo reprehenderit error cum adipisci hic eum quibusdam quidem, numquam omnis cupiditate!
+            </p>
+          </columns>
+        </row>
+      </container>
+    </columns>
+  </row>
+
+</container>
+<spacer size="24"></spacer>
+<container class="bordered radius idea-card">
+
+  <spacer size="24"></spacer>
+
+  <row>
+
+    <columns class="votes" small="1">
+      <spacer size="8"></spacer>
+      <center>
+        <img src="https://s3-eu-west-1.amazonaws.com/conflux-mail/vote.png" width="8" height="8" />
+      </center>
+      <spacer size="4"></spacer>
+      <p class="votes-number text-center">
+        54
+      </p>
+    </columns>
+
+    <columns small="10">
+      <container>
+        <row>
+          <columns small="9" style="padding-bottom: 0;">
+            <h6 class="idea-title" style="margin-bottom: 0;">Feedback idea goes here</h6>
+            <p class="status warning-color">
+              In progress
+            </p>
+          </columns>
+          <columns small="3" style="padding-bottom: 0;">
+            <button href="#" class="button small radius expanded">View idea</button>
+          </columns>
+        </row>
+      </container>
+      <container>
+        <row>
+          <columns small="12" style="padding-bottom: 0;">
+            <p class="body-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quisquam, libero vitae maxime repellat odit quae, voluptate molestias explicabo reprehenderit error cum adipisci hic eum quibusdam quidem, numquam omnis cupiditate!
+            </p>
+          </columns>
+        </row>
+      </container>
+    </columns>
+  </row>
+
+</container>
+<wrapper>
+  <spacer size="32"></spacer>
+  <p class="text-center unsubscribe">
+    <a href="#" class="underscore-link">Unsubscribe from our emails</a>
+  </p>
+  <spacer size="32"></spacer>
 </container>
