@@ -17,7 +17,7 @@ subject: Digest
 <wrapper>
   <row class="collapse">
     <column small="12">
-      <h2 class="text-center">Here's what happened last week</h2>
+      <h4 class="text-center">Here's what happened last week</h4>
     </column>
   </row>
 </wrapper>
@@ -28,7 +28,23 @@ subject: Digest
       <columns small="3"  valign="middle">
         <container class="stats rounded bordered">
           <spacer size="24"></spacer>
-          <p class="price text-center" style="margin-bottom: 0;">+34</p>
+          <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>34</p>
+          <h6 class="text-center" style="margin-bottom: 0;">Votes</h6>
+          <spacer size="28"></spacer>
+        </container>
+      </columns>
+      <columns small="3"  valign="middle">
+        <container class="stats rounded bordered">
+          <spacer size="24"></spacer>
+          <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>34</p>
+          <h6 class="text-center" style="margin-bottom: 0;">Ideas</h6>
+          <spacer size="28"></spacer>
+        </container>
+      </columns>
+      <columns small="3"  valign="middle">
+        <container class="stats rounded bordered">
+          <spacer size="24"></spacer>
+          <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>34</p>
           <h6 class="text-center" style="margin-bottom: 0;">Feedback</h6>
           <spacer size="28"></spacer>
         </container>
@@ -36,24 +52,8 @@ subject: Digest
       <columns small="3"  valign="middle">
         <container class="stats rounded bordered">
           <spacer size="24"></spacer>
-          <p class="price text-center" style="margin-bottom: 0;">+34</p>
-          <h6 class="text-center" style="margin-bottom: 0;">Feedback</h6>
-          <spacer size="28"></spacer>
-        </container>
-      </columns>
-      <columns small="3"  valign="middle">
-        <container class="stats rounded bordered">
-          <spacer size="24"></spacer>
-          <p class="price text-center" style="margin-bottom: 0;">+34</p>
-          <h6 class="text-center" style="margin-bottom: 0;">Feedback</h6>
-          <spacer size="28"></spacer>
-        </container>
-      </columns>
-      <columns small="3"  valign="middle">
-        <container class="stats rounded bordered">
-          <spacer size="24"></spacer>
-          <p class="price text-center" style="margin-bottom: 0;">+34</p>
-          <h6 class="text-center" style="margin-bottom: 0;">Feedback</h6>
+          <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>34</p>
+          <h6 class="text-center" style="margin-bottom: 0;">Supporters</h6>
           <spacer size="28"></spacer>
         </container>
       </columns>
@@ -61,53 +61,66 @@ subject: Digest
   </container>
 </wrapper>
 
-<spacer size="28"></spacer>
+<spacer size="20"></spacer>
+<container class="transparent">
 
-<container>
+</container>
+<!-- <container class="transparent">
+  <row class="collapse">
+    <column small="12">
+      <h4 class="text-center">Here's what a few people had to<br />  say about you last week</h4>
+    </column>
+  </row>
+</container> -->
+
+<container class="transparent">
+  <row class="collapse">
+    <column small="12">
+      <hr>
+      <h4 class="text-center">Here’s a couple of trending ideas</h4>
+    </column>
+  </row>
+</container>
+
+<container class="bordered radius">
 
   <spacer size="16"></spacer>
 
   <row>
-    <columns small="12">
-      <h1>Hi, Elijah Baily</h1>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit sapiente delectus molestias quia.</p>
-      <img src="http://placehold.it/580x300" alt="">
-      <callout class="primary">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda, praesentium qui vitae voluptate dolores. <a href="#">Click it!</a></p>
-      </callout>
-      <h2>Title Ipsum <small>This is a note.</small></h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi repellat, harum. Quas nobis id aut, aspernatur, sequi tempora laborum corporis cum debitis, ullam, dolorem dolore quisquam aperiam! Accusantium, ullam, nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus consequuntur commodi, aut sed, quas quam optio accusantium recusandae nesciunt, architecto veritatis. Voluptatibus sunt esse dolor ipsum voluptates, assumenda quisquam.</p>
-
-      <button class="large secondary" href="#">Click Me!</button>
-
+    <columns small="2">
+      <spacer size="8"></spacer>
+      <center>
+        <img src="/assets/img/vote.png" width="8" height="8" />
+      </center>
+      <spacer size="4"></spacer>
+      <p class="votes-number text-center">
+        54
+      </p>
+    </columns>
+    <columns small="9">
+      <container>
+        <row>
+          <columns small="9">
+            <h5 style="margin-bottom: 0;">Feedback idea goes here</h5>
+            <p>
+              In progress
+            </p>
+          </columns>
+          <columns small="3">
+            <button class="button">View idea</button>
+          </columns>
+        </row>
+      </container>
+      <container>
+        <row>
+          <columns small="12" style="padding-bottom: 0;">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quisquam, libero vitae maxime repellat odit quae, voluptate molestias explicabo reprehenderit error cum adipisci hic eum quibusdam quidem, numquam omnis cupiditate!
+            </p>
+          </columns>
+        </row>
+      </container>
     </columns>
   </row>
-
-  <wrapper class="secondary">
-
-    <spacer size="16"></spacer>
-
-    <row>
-      <columns large="6">
-        <h5>Connect With Us:</h5>
-        <button class="facebook expand" href="#">Facebook</button>
-        <button class="twitter expand" href="#">Twitter</button>
-        <button class="google expand" href="#">Google+</button>
-      </columns>
-      <columns large="6">
-        <h5>Contact Info:</h5>
-        <p>Phone: 408-341-0600</p>
-        <p>Email: <a href="mailto:foundation@zurb.com">foundation@zurb.com</a></p>
-      </columns>
-    </row>
-  </wrapper>
-
-  <center>
-    <menu>
-      <item href="#">Terms</item>
-      <item href="#">Privacy</item>
-      <item href="#">Unsubscribe</item>
-    </menu>
-  </center>
 
 </container>
