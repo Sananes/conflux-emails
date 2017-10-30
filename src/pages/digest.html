@@ -27,34 +27,34 @@ subject: Digest
     <row>
       <columns small="3"  valign="middle">
         <container class="stats rounded bordered">
-          <spacer size="24"></spacer>
+          <spacer size="26"></spacer>
           <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>12</p>
           <h6 class="text-center" style="margin-bottom: 0;">Votes</h6>
-          <spacer size="28"></spacer>
+          <spacer size="30"></spacer>
         </container>
       </columns>
       <columns small="3"  valign="middle">
         <container class="stats rounded bordered">
-          <spacer size="24"></spacer>
+          <spacer size="26"></spacer>
           <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>34</p>
           <h6 class="text-center" style="margin-bottom: 0;">Ideas</h6>
-          <spacer size="28"></spacer>
+          <spacer size="30"></spacer>
         </container>
       </columns>
       <columns small="3"  valign="middle">
         <container class="stats rounded bordered">
-          <spacer size="24"></spacer>
+          <spacer size="26"></spacer>
           <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>56</p>
           <h6 class="text-center" style="margin-bottom: 0;">Feedback</h6>
-          <spacer size="28"></spacer>
+          <spacer size="30"></spacer>
         </container>
       </columns>
       <columns small="3"  valign="middle">
         <container class="stats rounded bordered">
-          <spacer size="24"></spacer>
+          <spacer size="26"></spacer>
           <p class="price text-center" style="margin-bottom: 0;"><span class="plus" v-align="top">+</span>9</p>
           <h6 class="text-center" style="margin-bottom: 0;">Supporters</h6>
-          <spacer size="28"></spacer>
+          <spacer size="30"></spacer>
         </container>
       </columns>
     </row>
@@ -96,9 +96,14 @@ subject: Digest
         <row>
           <columns small="9" style="padding-bottom: 0;">
             <h6 class="idea-title" style="margin-bottom: 0;">Feedback idea goes here</h6>
-            <p class="status warning-color">
-              In progress
-            </p>
+            <row class="status">
+              <columns small="1"><img src="/assets/img/status_new.png" width="16" height="16" /></columns>
+              <columns small="11" style="padding-left: 4px !important;">
+                <p class="status-text status-red">
+                  New
+                </p>
+              </columns>
+            </row>
           </columns>
           <columns small="3" style="padding-bottom: 0;">
             <button href="#" class="button small radius expanded">View idea</button>
@@ -144,9 +149,14 @@ subject: Digest
         <row>
           <columns small="9" style="padding-bottom: 0;">
             <h6 class="idea-title" style="margin-bottom: 0;">Feedback idea goes here</h6>
-            <p class="status warning-color">
-              In progress
-            </p>
+            <row class="status">
+              <columns small="1"><img src="/assets/img/status_inprogress.png" width="16" height="16" /></columns>
+              <columns small="11" style="padding-left: 4px !important;">
+                <p class="status-text status-yellow">
+                  In progress
+                </p>
+              </columns>
+            </row>
           </columns>
           <columns small="3" style="padding-bottom: 0;">
             <button href="#" class="button small radius expanded">View idea</button>
@@ -189,9 +199,14 @@ subject: Digest
         <row>
           <columns small="9" style="padding-bottom: 0;">
             <h6 class="idea-title" style="margin-bottom: 0;">Feedback idea goes here</h6>
-            <p class="status warning-color">
-              In progress
-            </p>
+            <row class="status">
+              <columns small="1"><img src="/assets/img/status_implemented.png" width="16" height="16" /></columns>
+              <columns small="11" style="padding-left: 4px !important;">
+                <p class="status-text status-green">
+                  Implemented
+                </p>
+              </columns>
+            </row>
           </columns>
           <columns small="3" style="padding-bottom: 0;">
             <button href="#" class="button small radius expanded">View idea</button>
